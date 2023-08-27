@@ -1,23 +1,102 @@
+html, body{
+    height: 100%;
+}	
+
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 12pt;
+    color: #333333;
+}
+
+/****************/
+/*    Header    */
+/****************/
 header{
     background-color: #8E0000;
+    overflow: hidden;
+}
+#top-header{
     color: #ffffff;
-}
-h1{
-    font-size: 36pt;
-    font-family: 'EB Garamond', serif;
+    font-size: 12pt;
     text-align: center;
+    height: 150px;
 }
-h2{
-    font-size: 20pt;
+
+/**************/
+/*    Logo    */
+/**************/
+#logo{
+    float: left;
+    padding:none;
+    margin: none;
+    height: 60px;
+    width: 30%;
+}
+#logo img{
+    float: left;
+    padding: 10px 0px;
+}
+
+/**************/
+/*    Menu    */
+/**************/
+#menu{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+     
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+}
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+     
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+     
+#menu li a{ 
+    color: #FFF;
+}
+     
+#menu li:hover a, #menu li span{
+    color: #333333;
+    text-decoration: none;
+}
+
+
+h1, h2, h3{
     font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+p, ol, ul{
+    margin-top: 0;
 }
 p{
-    font-size: 12pt;
-    font-family: 'EB Garamond', serif;
+    line-height: 180%;
 }
-li{
-    font-size: 12pt;
-    font-family: 'EB Garamond', serif;
+ol, ul{
+    padding: 0;
+    list-style: none;
 }
 .nav{
     font-size: 14pt;
@@ -40,4 +119,8 @@ footer{
     text-align: center;
     padding: 5px;
     margin-top: 10px;
+}
+.container{
+    margin: 0px auto;
+    width: 1200px;
 }
