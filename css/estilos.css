@@ -1,0 +1,43 @@
+header{
+    background-color: #8E0000;
+    color: #ffffff;
+}
+h1{
+    font-size: 36pt;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+h2{
+    font-size: 20pt;
+    font-family: 'Josefin Sans', sans-serif;
+}
+p{
+    font-size: 12pt;
+    font-family: 'EB Garamond', serif;
+}
+li{
+    font-size: 12pt;
+    font-family: 'EB Garamond', serif;
+}
+.nav{
+    font-size: 14pt;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333333;
+    text-decoration: none;
+    margin: 20px;
+}
+.nav:hover{
+    font-size: 14pt;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #8E0000;
+    text-decoration: none;
+    margin: 20px;
+}
+footer{
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 12pt;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
