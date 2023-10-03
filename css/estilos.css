@@ -126,6 +126,12 @@ header{
     font-size: 1.6em;
     font-weight: 700;
 }
+.carta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;;
+}
 .button {
     text-decoration: none;
     text-align: center;
